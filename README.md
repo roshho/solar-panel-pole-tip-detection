@@ -1,15 +1,31 @@
-# Davis Mechatronics Interview Challenge
+# Solar Panel Pole Tip Detection System
 
-![Title](title.png)
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-s-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-NVIDIA%20Orin-76B900.svg)
+
+![Title](readme-images/title.png)
+
+## Table of Contents
+- [Overview](#overview)
+- [Results](#results)
+  - [RGB Accuracies](#rgb-accuracies)
+  - [Depth Estimation](#depth-estimation)
+- [Challenge Requirements](#challenge-requirements)
+- [Setup](#setup)
+- [Usage](#usage)
+  - [Production Inference](#production-inference-rgbd--json)
+  - [Evaluation Scripts](#evaluation-scripts)
 
 ## Overview
-![Pre-Configuration](pre-config.png)
+![Pre-Configuration](readme-images/pre-config.png)
 
-![Model Fine-Tuning](model-finetuning.png)
+![Model Fine-Tuning](readme-images/model-finetuning.png)
 
 ## Results
 
-![Example Labeling](example-labeling.png)
+![Example Labeling](readme-images/example-labeling.png)
 ### RGB Accuracies
 
 #### Localization Error (pixels)
@@ -41,7 +57,7 @@
 
 ### Depth Estimation
 
-![Depth Estimation Distribution](depth-estimation-piechart.png)
+![Depth Estimation Distribution](readme-images/depth-estimation-piechart.png)
 
 | Metric | Value |
 |--------|-------|
@@ -53,7 +69,7 @@
 
 
 
-## Challenge requirements
+## Challenge Requirements
 - input: pictures, output: x,y,z
 - front and back is different, pictures are combined. can assume camera is fixed. 
 - camera used is zed X
